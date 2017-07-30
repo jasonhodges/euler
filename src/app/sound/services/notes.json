@@ -1,0 +1,224 @@
+[
+  {
+    "key": "C1",
+    "num": 12
+  },
+  {
+    "key": "C#1",
+    "num": 13,
+    "col": "black"
+  },
+  {
+    "key": "D1",
+    "num": 14
+  },
+  {
+    "key": "D#1",
+    "num": 15,
+    "col": "black"
+  },
+  {
+    "key": "E1",
+    "num": 16
+  },
+  {
+    "key": "F1",
+    "num": 17
+  },
+  {
+    "key": "F#1",
+    "num": 18,
+    "col": "black"
+  },
+  {
+    "key": "G1",
+    "num": 19
+  },
+  {
+    "key": "G#1",
+    "num": 20,
+    "col": "black"
+  },
+  {
+    "key": "A1",
+    "num": 21
+  },
+  {
+    "key": "A#1",
+    "num": 22,
+    "col": "black"
+  },
+  {
+    "key": "B1",
+    "num": 23
+  },
+  {
+    "key": "C2",
+    "num": 24
+  },
+  {
+    "key": "C#2",
+    "num": 25,
+    "col": "black"
+  },
+  {
+    "key": "D2",
+    "num": 26
+  },
+  {
+    "key": "D#2",
+    "num": 27,
+    "col": "black"
+  },
+  {
+    "key": "E2",
+    "num": 27
+  },
+  {
+    "key": "F2",
+    "num": 28
+  },
+  {
+    "key": "F#2",
+    "num": 29,
+    "col": "black"
+  },
+  {
+    "key": "G2",
+    "num": 30
+  },
+  {
+    "key": "G#2",
+    "num": 31,
+    "col": "black"
+  },
+  {
+    "key": "A2",
+    "num": 32
+  },
+  {
+    "key": "A#2",
+    "num": 33,
+    "col": "black"
+  },
+  {
+    "key": "B2",
+    "num": 34
+  },
+  {
+    "key": "C3",
+    "num": 35
+  },
+  {
+    "key": "C#3",
+    "num": 36,
+    "col": "black"
+  },
+  {
+    "key": "D3",
+    "num": 37
+  },
+  {
+    "key": "D#3",
+    "num": 38,
+    "col": "black"
+  },
+  {
+    "key": "E3",
+    "num": 40
+  },
+  {
+    "key": "F3",
+    "num": 41
+  },
+  {
+    "key": "F#3",
+    "num": 41,
+    "col": "black"
+  },
+  {
+    "key": "G3",
+    "num": 42
+  },
+  {
+    "key": "G#3",
+    "num": 43,
+    "col": "black"
+  },
+  {
+    "key": "A3",
+    "num": 44
+  },
+  {
+    "key": "A#3",
+    "num": 45,
+    "col": "black"
+  },
+  {
+    "key": "B3",
+    "num": 46
+  },
+  {
+    "key": "B#3",
+    "num": 47,
+    "col": "black"
+  },
+  {
+    "key": "C4",
+    "num": 48
+  },
+  {
+    "key": "C#4",
+    "num": 49,
+    "col": "black"
+  },
+  {
+    "key": "D4",
+    "num": 50
+  },
+  {
+    "key": "D#4",
+    "num": 51,
+    "col": "black"
+  },
+  {
+    "key": "E4",
+    "num": 52
+  },
+  {
+    "key": "F4",
+    "num": 53
+  },
+  {
+    "key": "F#4",
+    "num": 54,
+    "col": "black"
+  },
+  {
+    "key": "G4",
+    "num": 55
+  },
+  {
+    "key": "G#4",
+    "num": 56,
+    "col": "black"
+  },
+  {
+    "key": "A4",
+    "num": 57
+  },
+  {
+    "key": "A#4",
+    "num": 58,
+    "col": "black"
+  },
+  {
+    "key": "B4",
+    "num": 59
+  },
+  {
+    "key": "B#4",
+    "num": 60,
+    "col": "black"
+  }
+]

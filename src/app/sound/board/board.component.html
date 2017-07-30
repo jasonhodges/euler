@@ -1,0 +1,38 @@
+<md-button-toggle-group name="waveform">
+  <md-button-toggle #square value="square" (click)="switchWaveform(square.value)">square</md-button-toggle>
+  <md-button-toggle #sine value="sine" (click)="switchWaveform(sine.value)">sine</md-button-toggle>
+  <md-button-toggle #sawtooth value="sawtooth" (click)="switchWaveform(sawtooth.value)">sawtooth</md-button-toggle>
+</md-button-toggle-group>
+<ul id="board" class="notes">
+  <li *ngFor="let note of notes; let i=index">
+    <div *ngIf="i<12"
+         class="note {{note.col}}"
+         (mousedown)="play(note)"
+         (mouseup)="release(note)">{{note.key}}
+    </div>
+  </li>
+  <br>
+  <li *ngFor="let note of notes; let i=index">
+    <div *ngIf="i>11 && i<24"
+         class="note {{note.col}}"
+         (mousedown)="play(note)"
+         (mouseup)="release(note)">{{note.key}}
+    </div>
+  </li>
+  <br>
+  <li *ngFor="let note of notes; let i=index">
+    <div *ngIf="i>23 && i<36"
+         class="note {{note.col}}"
+         (mousedown)="play(note)"
+         (mouseup)="release(note)">{{note.key}}
+    </div>
+  </li>
+  <br>
+  <li *ngFor="let note of notes; let i=index">
+    <div *ngIf="i>36 && i<49"
+         class="note {{note.col}}"
+         (mousedown)="play(note)"
+         (mouseup)="release(note)">{{note.key}}
+    </div>
+  </li>
+</ul>
