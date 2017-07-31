@@ -30,25 +30,9 @@ import { HomeActions } from './home/home.actions';
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
         Index
       </a>
-      <a [routerLink]=" ['./home'] "
-        routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
-        Home
-      </a>
-      <a [routerLink]=" ['./detail'] "
-        routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
-        Detail
-      </a>
-      <a [routerLink]=" ['./barrel'] "
-        routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
-        Barrel
-      </a>
-      <a [routerLink]=" ['./about'] "
-        routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
-        About
-      </a>
       <a [routerLink]=" ['./sound'] "
         routerLinkActive="active" [routerLinkActiveOptions]= "{exact: true}">
-        About
+        Sound
       </a>
     </nav>
 
@@ -58,22 +42,10 @@ import { HomeActions } from './home/home.actions';
 
     <pre class="app-state">this.state$ = {{ state$ | async | json }}</pre>
 
-    <footer>
-      <span>
-        Angular Electron Dream Starter by <a (click)="openURL(url)" href="#">@ColinSkow</a>
-      </span>
-      <div>
-        <a [href]="url">
-          <img [src]="angularclassLogo" width="25%">
-        </a>
-      </div>
-    </footer>
   `
 })
 export class AppComponent implements OnInit {
-  public angularclassLogo = 'assets/img/angular-electron.svg';
-  public name = 'Angular Electron Dream Starter';
-  public url = 'https://github.com/colinskow/angular-electron-dream-starter';
+  public name = 'Euler';
   public state$: Observable<HomeState>;
 
   constructor(
@@ -95,11 +67,3 @@ export class AppComponent implements OnInit {
   }
 
 }
-
-/*
- * Please review the https://github.com/AngularClass/angular2-examples/ repo for
- * more angular app examples that you may copy/paste
- * (The examples may not be updated as quickly. Please open an issue on github for us to update it)
- * For help or questions please contact us at @AngularClass on twitter
- * or our chat on Slack at https://AngularClass.com/slack-join
- */

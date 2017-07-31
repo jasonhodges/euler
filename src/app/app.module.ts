@@ -77,7 +77,6 @@ if (ENV === 'development') {
   bootstrap: [ AppComponent ],
   declarations: [
     AppComponent,
-    AboutComponent,
     HomeComponent,
     NoContentComponent,
     XLargeDirective
